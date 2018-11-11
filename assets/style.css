@@ -1,0 +1,67 @@
+h1{
+	background: red;
+}
+
+
+#nav_bar{
+	display: block; 
+	overflow: hidden;
+	float: left;
+}
+
+#nav_bar ul{
+	min-height: 60px;
+	margin: 0;
+	background-color: #000000;
+	color: #ffffff; !important
+}
+
+#nav_bar li{
+	display: block; 
+	overflow: hidden;
+	border-right: 4px solid #f44336; 
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	color: ##ffffff; !important	
+}
+
+#nav_bar li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#logo_div{
+	display: block;
+	overflow: hidden;
+	float: left;
+	max-width: 100px;
+	
+}
+
+#header_div{
+	display: block;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+#footer_div{
+	display: block;
+	overflow: hidden;
+	min-height: 90px;
+	background-color: red;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#content_div{
+	min-height: 600px;
+}
+
+#header_img{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+	background-color: green;
+}
