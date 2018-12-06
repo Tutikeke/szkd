@@ -14,30 +14,12 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-	<div id="header_img">
-			<img src="../header_ball.jpg" alt="CS Viitorul header" height="300"
-				width="1500">
-	</div>
-	<div id="header_div">
-		<div id="nav_bar">
-			<ul>
-				<li><a href="mainpage.php">Főoldal</a></li>
-				<li><a href="news.php">Hírek</a></li>
-				<li><a href="footballplay.php">Labdarúgás</a></li>
-				<li><a href="aboutus.php">Rólunk</a></li>
-			</ul>
-		</div>
-		<div id="logo_div">
-			<img src="../logo_img.png" alt="CS Viitorul Logo" height="70"
-				width="70">
-		</div>
-	</div>
+	<?php include 'header.php';?>
 	<div id="content_div">
 	
 	
 	</div>
-	<div id="footer_div">
-		<div id="footer_date"><?php echo date("Y")?></div>
-	</div>
+	
+<?php include 'footer.php';?>
 </body>
 </html>
